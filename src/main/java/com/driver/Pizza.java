@@ -2,10 +2,10 @@ package com.driver;
 
 public class Pizza {
 
-    private  boolean isTakeAwayAdded;
-    private  boolean isCheesedAdded;
-    private  boolean isToppingAdded;
-    private Boolean  isBillGenerated;
+      boolean isTakeAwayAdded;
+      boolean isCheesedAdded;
+      boolean isToppingAdded;
+     Boolean  isBillGenerated;
     private Boolean isVeg;
     private String bill;
     private int price;
@@ -41,7 +41,7 @@ public class Pizza {
     }
 
     public int getPrice(){
-        return this.price;
+        return this.price ;
     }
 
     public void addExtraCheese(){
